@@ -16,4 +16,10 @@ public class Main {
         } catch (IOException e){throw new RuntimeException(e);}
         return 0;
     }
+    public static void main(String[] args){
+        char[] pull = new char[1000000];
+        for(int i = 0; i < 100; ++i){
+            System.out.println("read: " + bomb(pull));
+        }
+    }
 }
